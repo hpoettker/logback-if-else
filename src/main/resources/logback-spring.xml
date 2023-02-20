@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <if condition='property("WITH_DEBUG").equalsIgnoreCase("true")'>
+    <then>
+      <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    </then>
+    <else>
+      <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    </else>
+  </if>
+</configuration>
